@@ -1,0 +1,94 @@
+.heading {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-shadow: 1px rgb(143, 140, 140);
+    font-size: 1 em;
+    text-align: left;
+}
+
+.random-text {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: rgb(122, 120, 120);
+    transition: color 0.2s;
+}
+
+.random-text:hover {
+    color: black;
+    transition: color 0.2s;
+}
+
+/* .downLogo {
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+
+/* .downLogo:hover .random-text{
+    color: black;
+    transition: color 0.2s;
+} */
+
+.contact {
+    display: flex;
+}
+
+.message {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    height: 25px;
+    /* justify-content: right; */
+    justify-items: right;
+    text-align: right;
+}
+
+.icons {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 25px;
+    width: 50%;
+    /* justify-content: left; */
+    justify-items: left;
+}
+
+.icons a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(34, 96, 146)
+}
+
+.icons a:hover {
+    color: red;
+}
+
+.icon-wrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.request {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.request-box {
+    border-collapse: collapse;
+    background-color: rgb(158, 30, 30);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}

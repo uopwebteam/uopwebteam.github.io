@@ -1,0 +1,36 @@
+
+.section-container {
+    /*height: 500px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.content-box {
+    vertical-align: middle;
+}
+
+.topic-container {
+    display: flex;
+    font-style: bold;
+    justify-content: center;
+}
+
+.topic-text {
+    text-transform: uppercase;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    color: rgb(206, 149, 27);
+    border-bottom: 1px solid rgb(206, 149, 27);
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    color: rgb(145, 145, 146);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
